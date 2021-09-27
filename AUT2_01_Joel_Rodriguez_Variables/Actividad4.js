@@ -1,7 +1,7 @@
 function actividad4() {
-    let number1 = document.getElementById("number1").value;
-    let number2 = document.getElementById("number2").value;
-    let number3 = document.getElementById("number3").value;
+    let number1 = parseInt(window.prompt("Introduzca el primer numero"));
+    let number2 = parseInt(window.prompt("Introduzca el segundo numero"));
+    let number3 = parseInt(window.prompt("Introduzca el tercer numero"));
 
     console.log(number1++ + " -> " + number1)
     console.log(number2++ + " -> " + number2)

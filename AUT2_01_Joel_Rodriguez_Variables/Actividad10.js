@@ -1,5 +1,5 @@
 function actividad10() {
-    input = window.prompt("Introduzca una letra: ");
+    let input = window.prompt("Introduzca una letra: ");
     var vowels = new Array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
     var isVowel = false;
     for (i in vowels) {

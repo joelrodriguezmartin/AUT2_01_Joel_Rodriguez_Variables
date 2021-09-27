@@ -1,5 +1,5 @@
 function actividad8() {
-    number = parseInt(window.prompt("Introduzca un numero"));
+    let number = parseInt(window.prompt("Introduzca un numero"));
     if (number % 2 == 0) {
         alert("Es par");
     }

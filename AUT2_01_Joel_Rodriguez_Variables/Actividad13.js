@@ -1,7 +1,7 @@
 function actividad13() {
-    number1 = parseInt(window.prompt("Introduzca el primer numero"));
-    number2 = parseInt(window.prompt("Introduzca el segundo numero"));
-    number3 = parseInt(window.prompt("Introduzca el tercer numero"));
+    let number1 = parseInt(window.prompt("Introduzca el primer numero"));
+    let number2 = parseInt(window.prompt("Introduzca el segundo numero"));
+    let number3 = parseInt(window.prompt("Introduzca el tercer numero"));
 
     let isCrescent = false;
     if (number1 < number2 && number2 < number3) {

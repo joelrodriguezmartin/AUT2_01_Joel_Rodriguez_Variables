@@ -1,14 +1,14 @@
 function actividad9() {
-    mes = parseInt(window.prompt("Introduce un mes"));
-    año = parseInt(window.prompt("Introduce un año"));
+    var mes = parseInt(window.prompt("Introduce un mes"));
+    var año = parseInt(window.prompt("Introduce un año"));
     if (mes < 0 || mes > 12) {
         alert("Mes incorrecto")
     }
     else {
-        mesanterior = mes - 1
-        messiguiente = mes + 1
-        añosig = año
-        añoprev = año
+        var mesanterior = mes - 1
+        var messiguiente = mes + 1
+        var añosig = año
+        var añoprev = año
         if (mesanterior < 1) {
             mesanterior = 12;
             añoprev--;
